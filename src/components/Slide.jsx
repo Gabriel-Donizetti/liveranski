@@ -1,4 +1,6 @@
 import { motion } from 'framer-motion';
+import emoji3 from "public/assets/emoji3.png"
+import emoji1 from "public/assets/emoji1.png"
 
 export default function Slide({ data, onNext, index }) {
 
@@ -13,10 +15,10 @@ export default function Slide({ data, onNext, index }) {
       <h2>{data.title}</h2>
 
       {index === 2 ? (
-        <img width={300} height={300} src="public\emoji3.png" alt="" />
+        <img width={300} height={300} src={emoji3} alt="" />
       )
         : (
-          <img width={300} height={300} src="public\emoji1.png" alt="" />
+          <img width={300} height={300} src={emoji1} alt="" />
         )
       }
 

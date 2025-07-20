@@ -13,15 +13,6 @@ export default function Slide({ data, onNext, index }) {
       transition={{ duration: 0.5 }}
     >
       <h2>{data.title}</h2>
-
-      {index === 2 ? (
-        <img width={300} height={300} src={emoji3} alt="" />
-      )
-        : (
-          <img width={300} height={300} src={emoji1} alt="" />
-        )
-      }
-
       <p>{data.text}</p>
       <button onClick={onNext}>Próximo 💖</button>
     </motion.div>

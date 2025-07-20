@@ -43,7 +43,7 @@ export default function FinalSlide() {
         >
             <h2>E aí… topa sair comigo de novo?</h2>
             <div style={{ marginTop: '2rem' }}>
-                <a href="https://ig.me/m/donissauro" className="btn-yes">Sim, vamos! ❤️</a>
+                <a href="https://wa.me/+5511912736873/?text=urlencodedtext" className="btn-yes">Sim, vamos! ❤️</a>
                 <button className="btn-no" id="noBtn">Não</button>
             </div>
         </motion.div>

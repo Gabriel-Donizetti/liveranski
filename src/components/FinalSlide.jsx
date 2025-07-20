@@ -41,10 +41,10 @@ export default function FinalSlide() {
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
         >
-            <h2>E aí… topa sair comigo de novo? </h2>
+            <h2>E aí… topa sair comigo ?</h2>
             <div style={{ marginTop: '2rem' }}>
                 <a href="https://wa.me/+5511912736873/?text=urlencodedtext" className="btn-yes">Sim, vamos! ❤️</a>
-                <button className="btn-no" id="noBtn">Não</button>
+                <button className="btn-no" id="noBtn">Não, sou paia</button>
             </div>
         </motion.div>
     );

@@ -1,8 +1,6 @@
 import { motion } from 'framer-motion';
-import emoji3 from "public/assets/emoji3.png"
-import emoji1 from "public/assets/emoji1.png"
 
-export default function Slide({ data, onNext, index }) {
+export default function Slide({ data, onNext }) {
 
   return (
     <motion.div
